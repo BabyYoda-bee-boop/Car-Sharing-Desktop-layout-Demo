@@ -136,12 +136,14 @@ body {
   color: var(--secondary-color);
 }
 
-.section__blog.container,
-.section__service .container {
+.section.container,
+.section .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#blog.section {
   margin-top: 91px;
   margin-bottom: 100px;
 }
@@ -181,6 +183,7 @@ body {
 #service {
   background-color: var(--gray-color-200);
   text-align: center;
+  padding-bottom: 100px;
 }
 #service .section__columns {
   gap: 45px;
