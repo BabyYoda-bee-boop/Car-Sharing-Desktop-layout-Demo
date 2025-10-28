@@ -3,12 +3,85 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Car Sharing Demo</title>
 </head>
 <body>
-  
+
+  <!-- welcome page -->
+  <header class="header">
+
+    <!-- top nav bar -->
+    <nav class="header__nav">
+      <div class="container">
+        <div class="header__nav-logo">
+          <img src="images/icon.svg" alt="three circles connected by a line" class="header__logo-img">
+          <h2 class="header__logo-text"><span>Car</span> sharing</h2>
+        </div>
+
+        <!-- nav links -->
+        <ul class="header__nav-list">
+          <li class="header__nav-list-item">Home</li>
+          <li class="header__nav-list-item">Blog</li>
+          <li class="header__nav-list-item">Service</li>
+          <li class="header__nav-list-item">Contact</li>
+        </ul>
+      </div>
+    </nav>
+    <!-- e: top nav bar, e: nav links -->
+
+    <!-- banner with fullscr photo -->
+    <div class="banner__container">
+      <h1 class="banner__container-title">Car Sharing</h1>
+      <p class="banner__container-subtitle">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+        <div class="banner__btn">
+          <a href="#" class="banner__btn first">Share a car</a>
+          <a href="#" class="banner__btn second">Key features</a>
+        </div>
+    </div>
+  </header>
+  <!-- e: welcome page, e: banner with fullscr photo -->
+
+    <!-- blog section -->
+    <section class="section__blog container" id="blog">
+      <h2 class="blog__header">Blog</h2>
+      <div class="blog__columns">
+        <article class="blog__column">
+            <img src="images/photo1.png" alt="Car's center console">
+            <h3 class="blog__column-title">LOREM IPSUM SIT DOLOR</h3>
+            <p class="blog__column-subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="blog__column-btn">Read more</a>
+        </article>
+        <article class="blog__column">
+            <img src="images/photo2.png" alt="Front-side of a red car">
+            <h3 class="blog__column-title">LOREM IPSUM SIT DOLOR</h3>
+            <p class="blog__column-subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="blog__column-btn">Read more</a>
+        </article>
+        <article class="blog__column">
+            <img src="images/photo3.png" alt="View of the engine compartment showing the car's motor and components">
+            <h3 class="blog__column-title">LOREM IPSUM SIT DOLOR</h3>
+            <p class="blog__column-subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="blog__column-btn">Read more</a>
+        </article>
+
+      </div>
+
+    </section>
+    <!-- e: blog section -->
+
 </body>
 </html>
